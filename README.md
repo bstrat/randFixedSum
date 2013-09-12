@@ -10,7 +10,13 @@ For example, the following command writes `10` CSV rows to `stdout`, each having
     coffee -e "require './randfixedsum.coffee'; console.log r.join ',' for r in randFixedSum 3,10,1.25,0,1"
 
 <table><tr><td>
-To test the uniformness of the generated random numbers, I tried to come up with the same scatterplot of `randFixedSum 3,16384,1.25,0,1`, that is [shown on MATLAB Central](http://www.mathworks.com/matlabcentral/fx_files/9700/1/randfixedsum_example.jpg). The result is shown on the right - it's derived from [slide 34](http://fhtr.org/BasicsOfThreeJS/#34) of the Tutorial [Three.js Basics by Ilmari Heikkinen](fhtr.org/BasicsOfThreeJS).
+To test the uniformness of the generated random numbers, I tried to come up with the same scatterplot
+of `randFixedSum 3,16384,1.25,0,1`, that is 
+[shown on MATLAB Central](http://www.mathworks.com/matlabcentral/fx_files/9700/1/randfixedsum_example.jpg).
+The result is shown on the right - it's derived from [slide 34](http://fhtr.org/BasicsOfThreeJS/#34) of the Tutorial
+[Three.js Basics by Ilmari Heikkinen](fhtr.org/BasicsOfThreeJS). Click the scatterplot for the interactive page.
 </td><td>
-<iframe src="http://bstr.at/randFixedSum/scatterplot/" width="480" height="480"></iframe>
+<a href="http://bstr.at/randFixedSum/scatterplot/" target="_blank">
+  <img src="https://github.com/bstrat/randFixedSum/raw/master/scatterplot/sp.png" width="480" height="400" />
+</a>
 </td></tr><table>
